@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 12, 2018, 12:29:23 PM
+    Author     : Mangesh
+*/
+
+title{
+    font-family: arial;
+    font-size: larger;
+}
+
+table{
+    width: 350px;
+    padding: 10px;
+    background-color: #cccccc;
+    font-family: sans-serif;
+    
+}
+
+body {
+  font-family: Calibri;
+  font-size: 18px;
+}
+
+a {
+  display: inline-block;
+  padding-left:20px;
+  transition: .3s;
+  font-weight:bold;
+  text-decoration:none;
+}
+a:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+ span.required{
+    color:red;
+}
+tel-number-field{
+    width: 40px;
+    text-align: center;
+}
+
+input-field, 
+tel-number-field, 
+textarea-field, 
+select-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+input-field:focus, 
+tel-number-field:focus, 
+textarea-field:focus,  
+select-field:focus{
+    border: 1px solid #0C0;
+}
+textarea-field{
+    height:100px;
+    width: 55%;
+}
+input[type=submit],
+input[type=button]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #FF8500;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+input[type=submit]:hover,
+input[type=button]:hover{
+    background: #EA7B00;
+    color: #fff;
+}
